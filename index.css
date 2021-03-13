@@ -1,0 +1,140 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: red;
+    align-items: center;
+    padding: 2px 13px;
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor{
+   width: 1200px;
+    margin: 30px auto;
+}
+.section{
+    width: 100%;
+    padding: 20px 30px;
+}
+.videos-pader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 0 auto;
+}
+.video{
+    background-color: black;
+    height: 150px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.play{
+    width: 15%;
+    margin: 0 auto;
+}
+.video-hijo{
+    border: 1px solid black;
+}
+.video-hijo a{
+   background-color: rgb(25, 121, 25);
+   display: block;
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   
+}
+.info{
+    padding: 2px 6px;
+}
+.elimar{
+    width: 400px;
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 40%;
+    background-color: rgb(207, 204, 204);
+    display: none;
+}
+.boton-remover{
+    margin: 0 auto;
+    width: 40%;
+}
+.mostar1{
+    display: block;
+}
+.oculta{
+    display: none;
+}
+.padin{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+.modificar{
+    display: none;
+   position: fixed;
+   margin-top: 350px;
+   margin-left: 40%;
+   background-color: rgb(207, 204, 204);
+}
+.modificar2{
+    display: none;
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 40%;
+    background-color: rgb(207, 204, 204);
+}
+.modificar3{
+    display: none;
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 40%;
+    background-color: rgb(207, 204, 204);
+}
+.modificar4{
+    display: none;
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 40%;
+    background-color: rgb(207, 204, 204);
+}
+.modificar5{
+    display: none;
+   position: fixed;
+   margin-top: 350px;
+   margin-left: 40%;
+   background-color: rgb(207, 204, 204);
+}
+.modificar6{
+    display: none;
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 40%;
+    background-color: rgb(207, 204, 204);
+}
+.modificar7{
+    display: none;
+   position: fixed;
+   margin-top: 350px;
+   margin-left: 40%;
+   background-color: rgb(207, 204, 204);
+}
+.modificar8{
+    display: none;
+   position: fixed;
+   margin-top: 350px;
+   margin-left: 40%;
+   background-color: rgb(207, 204, 204);
+}
+.mostar{
+    display: block;
+}
